@@ -106,7 +106,7 @@ SELECT nama, ukt FROM mahasiswa ORDER BY ukt DESC;
 SELECT nama, ukt FROM mahasiswa ORDER BY ukt DESC, nama ASC;
 
 -- Hitunglah jumlah mahasiswa yang memiliki ipk >= 3.5 dan berada di semester 8
-SELECT COUNT(*) FROM mahasiswa WHERE ipk >= 3.5 AND semester = 8;
+SELECT COUNT(nrp) FROM mahasiswa WHERE ipk >= 3.5 AND semester = 8;
 
 -- Tampilkan nama, ukt, dan golongan. Jika ukt mahasiswa kurang dari sama dengan 1 juta, maka masuk golongan "A". Jika ukt mahasiswa diatas 1 juta sampai denga 2 juta, maka masuk golongan "B" Jika ukt mahasiswa diatas 2 juta, maka masuk golongan "C".
 SELECT nama, ukt, CASE WHEN ukt <= 1000000 THEN 'A' WHEN ukt > 1000000 AND ukt <= 2000000 THEN 'B' ELSE 'C' END AS golongan FROM mahasiswa;
