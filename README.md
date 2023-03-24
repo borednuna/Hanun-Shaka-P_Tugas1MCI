@@ -22,6 +22,7 @@ Repository for Tugas I MCI
 ![sql](./SQL/img/sql2_6.jpeg) <br/>
 
 3. Hitunglah jumlah mahasiswa yang memiliki ipk >= 3.5 dan berada di semester 8
+<br/>
 ![sql](./SQL/img/sql3.jpeg) <br/>
 
 4. Tampilkan nama, ukt, dan golongan. Jika ukt mahasiswa kurang dari sama dengan 1 juta, maka masuk golongan "A". Jika ukt mahasiswa diatas 1 juta sampai denga 2 juta, maka masuk golongan "B" Jika ukt mahasiswa diatas 2 juta, maka masuk golongan "C".
